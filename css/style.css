@@ -1,0 +1,410 @@
+/*----------Author---------
+
+
+Name:Sohanor Rahman;
+Gmail:shovons828@gmail.com;
+
+
+*/
+/*=========Index============
+
+1.Home
+2. About Us
+3. Our Services  
+4. Prices  
+5.Contact
+
+
+*/
+/*--------Global css-------*/
+h1,h2,h3,h4,h6{
+
+}
+p{
+
+}
+img{
+
+}
+.no-padding{
+	padding: 0px;
+}
+
+/*-----------Custom-Main-css Start----------*/
+
+/*------------Top header part start----------*/
+.header-my-custom-bg{
+	background: url(../image/top-banar-bg-image.png) no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.my-custom-nav-main a{
+	color: gray;
+}
+.navbar-toggler-icon{
+	color: #fff;
+}
+.my-custom-top-heder-part-main h2{
+	font-size: 40pt;
+	color: #fff;
+	text-align: center;
+	margin-top: 200px;
+}
+.hr-bar{
+	border-bottom: 1px solid #ed145b;
+	width: 60%;
+	text-align: center;
+}
+.my-custom-top-heder-part-main p{
+	text-align: center;
+	color: #fff;
+	font-size: 24pt;
+	margin: 30px 0px 70px 0px;
+}
+
+.top-heaer-btn{
+	margin-left: 41%;
+	padding: 12px 30px;
+	border: none;
+	border-radius: 10px;
+	background-color: #ed145b;
+	margin-bottom: 200px;
+}
+
+/*------------About us part start------------*/
+.top-header-2nd-part{
+	background: url(../image/top-2nd-banar-part.png) no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin-top: -30px;
+}
+.top-header-2nd-part h3{
+	margin: 60px 0px 20px 0px;
+	font-size: 28pt;
+}
+.top-2nd-hr-bar{
+	border-bottom: 2px solid #ed145b;
+	width: 30%;
+	float: left;
+}
+.top-header-2nd-part p{
+	margin: 30px 0px 20px 0px;
+	float: left;
+	text-align: justify;
+	font-size: 16pt;
+}
+.top-header-2nd-a{
+	text-decoration: none;
+	float: right;
+	color: #ed145b;
+	font-size: 15pt;
+}
+.top-header-2nd-part img{
+	width: 100%;
+	margin-top: 300px;
+}
+
+/*------------Services  part start------------*/
+.my-custom-service-main{
+	text-align: center;
+}
+.my-custom-service-main h2{
+	margin-top: 150px;
+	color: black;
+	margin-bottom: 30px;
+}
+.my-custom-service-main img{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.my-custom-service-main h4{
+	margin-bottom: 50px;
+	margin-top: 20px;
+	color: #ed145b;
+	font-size: 15pt;
+
+}
+.service-hr-bar{
+	border-bottom: 2px solid #ed145b;
+	width: 30%;
+	text-align: center;
+}
+.my-custom-service-main p{
+	margin-bottom: 40px;
+	font-size: 16pt;
+}
+/*--------------Prices part start-----------*/
+
+
+/*--------------card part start-----------*/
+.my-custom-price-main{
+	background:url(../image/top-2nd-banar-part.png) no-repeat;
+/*	width: 100%;*/
+	margin-top: -49px;
+}
+.my-custom-price-main h1{
+	margin-top: 100px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.prices-hr-bar{
+	border-bottom: 2px solid #ed145b;
+	width: 30%;
+	text-align: center;
+}
+.my-custom-price-main p{
+	margin: 30px 0px 100px 0px;
+}
+.custom-card{
+	text-align: center;
+	margin-bottom: 100px;
+}
+.custom-card ul{
+	list-style: none;
+}
+.custom-card li{
+	text-align: center;
+}
+.custom-card-parant{
+	position: absolute;
+}
+.custom-card-child{
+	position: relative;
+	color: #fff;
+	font-size: 20pt;
+	bottom: 92px;
+}
+.custom-card-child h1{
+	text-align: center;
+}
+.custom-card-child p{
+	text-align: center;
+	font-size: 12pt;
+}
+.price-card-btn{
+	position: relative;
+	margin-top: -180px;
+	border: none;
+	border-radius: 10px;
+	background-color: #f4f4f4;
+	font-style: bold;
+	padding: 8px 0px;
+	width: 50%;
+	left: 24%;
+	text-align: center;
+}
+.card-btn2{
+	background-color: #ed145b;
+	border: none;
+	padding: 8px 30px;
+	border-radius: 10px;
+}
+/*second contant*/
+.sec-contant-main img{
+	position: absolute;
+	margin-top: 100px;
+}
+.sec-contant-main h4{
+	margin-top: 90px;
+	position: relative;
+	font-size: 17pt;
+	margin-left: 70px;
+}
+.sec-contant-main p{
+	position: relative;
+	font-size: 11pt;
+	margin-left: 70px;
+	text-align:justify;
+}
+/*----------------Contact part start----------*/
+.contact-part-main{
+	background-color: #ed145b;
+}
+.contact-part-main h1{
+	font-size: 23pt;
+	color: #fff;
+	margin-top: 30px;
+}
+.contact-part-btn{
+	padding: 10px 50px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin: 32px 0px 30px 40%;
+    color: #ed145b;
+}
+/*----------centact 2nd part start--------*/
+.contact-2nd-part-main{
+	background:url(../image/top-2nd-banar-part.png) no-repeat;
+	width: 100%;
+}
+.contact-2nd-part-main h2{
+	text-align: center;
+	margin-top: 100px;
+	color: #5a5a5a;
+}
+.contact-2nd-part-main h4{
+	margin-top: 20px;
+	color: #afafaf;
+}
+.contact-2nd-part-main .port-para{
+	margin-top: 10px;
+	color: #afafaf;
+
+}
+.contact-show-more-btn{
+	color: #ff0055;
+	margin-top: 50px;
+	margin: 0 auto;
+	padding: 100px 0px 300px 0px;
+	text-decoration: none;
+}
+.contact-show-more-btn:hover{
+	text-decoration: none;
+	color: #ff0055;
+}
+/*------------last section start------------*/
+.last-section-main{
+	background:url(../image/top-2nd-banar-part.png) no-repeat;
+	background-size: cover;
+}
+.last-section-main img{
+	width: 90%;
+	margin-top: 30px;
+}
+.last-section-main h2{
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+.last-section-main p{
+	text-align: justify;
+	float: left;
+	width: 90%;
+}
+.last-part-hr-bar{
+	border-bottom: 2px solid #ed145b;
+	width: 45%;
+	margin-bottom: 30px;
+	float: left;
+}
+.last-section-btn{
+	padding: 12px 30px;
+	background-color:#ed145b;
+	border: none;
+	border-radius: 15px; 
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+/*----------------FOOTER PART-----------*/
+.span-right{
+	float: right;
+}
+footer a{
+	text-decoration: none;
+}
+/*----------Midea quary-----------*/
+@media(min-width: 300px) and (max-width: 720px){
+	.my-custom-top-heder-part-main{
+		text-align: center;
+	}
+	.my-custom-top-heder-part-main h2{
+		font-size: 20pt;
+		margin-top: 80px;
+
+	}
+	.my-custom-top-heder-part-main p{
+		font-size: 16pt;
+
+	}
+	.top-heaer-btn{
+		text-align: center;
+		margin-left: 0px;
+		margin-bottom: 50px;
+	}
+	/*--------Top header 2nd part--------*/
+	.top-header-2nd-part{
+		text-align: center;
+	}
+	.top-header-2nd-part h3{
+		font-size: 20pt;
+	}
+	.top-2nd-hr-bar{
+		width: 100%;
+	}
+	.top-header-2nd-part p{
+		font-size: 15pt;
+	}
+	.top-header-2nd-a{
+		float: left;
+	}
+	.top-header-2nd-part img{
+		width: 50%;
+		margin-top: 50px;
+	}
+	/*----------Our service start-------*/
+	.my-custom-service-main{
+		text-align:center;
+	}
+	.my-custom-service-main h2{
+		font-size: 20pt;
+		margin-top: 80px;
+	}
+	.my-custom-service-main p{
+		font-size: 16pt;
+		text-align: justify;
+	}
+	.my-custom-service-main h4{
+		margin:0px 0px 30px 0px;
+	}
+	/*--------parices part start---*/
+	.my-custom-price-main{
+		text-align: center;
+	}
+	.custom-card{
+		width: 80%;
+		margin:0 auto;
+		margin-bottom: 15px;
+	}
+	.sec-contant-main h4{
+		font-size: 20pt;
+	}
+	.sec-contant-main p{
+		font-size: 14pt;
+	}
+	/*-------------contact part start-------*/
+	.contact-2nd-part-main{
+		text-align: center;
+	}
+	.contact-2nd-part-main h2{
+		text-align: center;
+	}
+	.contact-2nd-part-main img{
+		margin-top: 30px;
+	}
+	.contact-2nd-part-main h4{
+		font-size: 16pt;
+	}
+	/*-----------last part start--------*/
+	.last-section-main{
+		text-align: center;
+	}
+	.last-section-main img{
+		width: 80%;
+	}
+	.last-section-main h2{
+		margin-top: 50px;
+	}
+	.last-part-hr-bar{
+		float: none;
+	}
+	/*------footer part start-------*/
+	.text-center{
+		text-align: center;
+		float: none;
+		display: block;
+	}
+	.span-right{
+		float: none;
+		text-align: center;
+	}
+}
